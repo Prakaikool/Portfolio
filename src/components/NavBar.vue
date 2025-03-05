@@ -26,4 +26,8 @@ const toggleMenu = () => {
   </nav>
 </template>
 
-<style scoped></style>
+<style scoped>
+.navbar {
+  font-family: 'Archivo Black', sans-serif;
+}
+</style>
