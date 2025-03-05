@@ -28,6 +28,30 @@ const toggleMenu = () => {
 
 <style scoped>
 .navbar {
+  font-size: 24px;
   font-family: 'Archivo Black', sans-serif;
+  background-color: #f6f6ef;
+  color: black;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px hsl(0, 0%, 0%);
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 </style>
