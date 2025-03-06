@@ -28,7 +28,7 @@ const toggleMenu = () => {
 
 <style scoped>
 .navbar {
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Archivo Black', sans-serif;
   background-color: #f6f6ef;
   color: black;

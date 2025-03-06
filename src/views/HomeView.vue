@@ -1,13 +1,15 @@
 <script setup></script>
 
 <template>
-  <div class="container">
-    <h1>PRAKAIKOOL TEEPRAKEN</h1>
-    <h2>Frontend developer student</h2>
+  <div class="home-container">
+    <div class="home-first">
+      <h1>PRAKAIKOOL<br />TEEPRAKEN</h1>
+      <h2>Frontend developer student</h2>
 
-    <button @click="downLoadFile">Resume</button>
+      <button @click="downLoadFile" class="resume-button">Resume</button>
 
-    <img src="/images/profile_picture.png" alt="Profile picture" />
+      <img src="/images/profile_picture.png" alt="Profile picture" class="picture" />
+    </div>
 
     <p>Get to know more</p>
     <h2>About me</h2>
@@ -62,4 +64,53 @@
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.home-container {
+  color: black;
+  max-width: auto;
+  padding: 100px 150px;
+}
+
+.home-first {
+  margin-top: 100px;
+}
+
+.home-first h2 {
+  margin-left: 125px;
+}
+
+.resume-button {
+  margin-top: 25px;
+  margin-left: 215px;
+  border-radius: 37px;
+  padding: 8px 40px;
+  font-size: 18px;
+  background-color: #d8d8d8;
+  font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+  color: #004aad;
+  font-family: 'Archivo Black', sans-serif;
+  padding-left: 100px;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: -485px;
+  max-width: 500px;
+}
+</style>
