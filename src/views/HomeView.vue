@@ -67,8 +67,8 @@
 <style scoped>
 .home-container {
   color: black;
-  max-width: auto;
-  padding: 100px 150px;
+  max-width: 100%;
+  padding: 100px;
 }
 
 .home-first {
@@ -76,12 +76,12 @@
 }
 
 .home-first h2 {
-  margin-left: 125px;
+  margin-left: 175px;
 }
 
 .resume-button {
   margin-top: 25px;
-  margin-left: 215px;
+  margin-left: 275px;
   border-radius: 37px;
   padding: 8px 40px;
   font-size: 18px;
@@ -93,7 +93,7 @@ h1 {
   font-size: 56px;
   color: #004aad;
   font-family: 'Archivo Black', sans-serif;
-  padding-left: 100px;
+  padding-left: 150px;
 }
 
 h2 {
@@ -109,7 +109,7 @@ p {
 .picture {
   display: block;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 150px;
   margin-top: -485px;
   max-width: 500px;
 }
