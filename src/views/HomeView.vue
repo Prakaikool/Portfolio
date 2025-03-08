@@ -6,7 +6,13 @@
       <h1>PRAKAIKOOL<br />TEEPRAKEN</h1>
       <h2>Frontend developer student</h2>
 
-      <button @click="downLoadFile" class="resume-button">Resume</button>
+      <button @click="downLoadFile" class="resume-button">
+        <img
+          src="/icons/file_down_icon.png"
+          alt="Download"
+          style="height: 18px; margin-right: 5px"
+        />Resume
+      </button>
 
       <img src="/images/profile_img.png" alt="Profile image" class="profile_img" />
     </div>
@@ -17,14 +23,16 @@
 
       <img src="/images/about_me_img.png" alt="My image" class="about_me_img" />
 
-      <div class="education-program-box">
-        <div class="education">
+      <div class="education-container">
+        <div class="education-first">
+          <img src="/icons/education_icon.png" alt="education_icon" class="ed_icon" />
           <h3>Education</h3>
           <p>IT-högskolan</p>
           <p>Järfälla gymnasium</p>
         </div>
 
-        <div class="program">
+        <div class="education-second">
+          <img src="/icons/education_icon.png" alt="education_icon" class="ed_icon" />
           <h3>Program</h3>
           <p>Frontend Developer</p>
           <p>Arts program</p>
@@ -97,16 +105,6 @@
   margin-left: 180px;
 }
 
-.resume-button {
-  margin-top: 25px;
-  margin-left: 275px;
-  border-radius: 37px;
-  padding: 8px 40px;
-  font-size: 18px;
-  background-color: #d8d8d8;
-  font-family: 'Outfit', sans-serif;
-}
-
 h1 {
   font-size: 56px;
   color: #004aad;
@@ -121,6 +119,17 @@ h2 {
 
 p {
   font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Button */
+.resume-button {
+  margin-top: 25px;
+  margin-left: 275px;
+  border-radius: 37px;
+  padding: 8px 40px;
+  font-size: 18px;
+  background-color: #d8d8d8;
   font-family: 'Outfit', sans-serif;
 }
 
