@@ -67,18 +67,34 @@
 </template>
 
 <style scoped>
+/* Base */
 .home-container {
   color: black;
   max-width: 100%;
   padding: 100px;
 }
 
+/* Sections */
 .home-first {
   margin-top: 100px;
 }
 
+.home-second {
+  margin-top: 100px;
+}
+
+/* fonts */
 .home-first h2 {
   margin-left: 175px;
+}
+
+.home-second h2 {
+  margin-top: -15px;
+  margin-left: 195px;
+}
+
+.home-second p {
+  margin-left: 180px;
 }
 
 .resume-button {
@@ -118,6 +134,7 @@ p {
 }
 
 .about_me_img {
-  max-width: 200px;
+  max-width: 350px;
+  padding-left: 150px;
 }
 </style>
