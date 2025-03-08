@@ -8,33 +8,35 @@
 
       <button @click="downLoadFile" class="resume-button">Resume</button>
 
-      <img src="/images/profile_picture.png" alt="Profile picture" class="picture" />
+      <img src="/images/profile_img.png" alt="Profile image" class="profile_img" />
     </div>
 
-    <p>Get to know more</p>
-    <h2>About me</h2>
+    <div class="home-second">
+      <p>Get to know more</p>
+      <h2>About me</h2>
 
-    <img src="" alt="" />
+      <img src="/images/about_me_img.png" alt="My image" class="about_me_img" />
 
-    <div class="education-program-box">
-      <div class="education">
-        <h3>Education</h3>
-        <p>IT-högskolan</p>
-        <p>Järfälla gymnasium</p>
+      <div class="education-program-box">
+        <div class="education">
+          <h3>Education</h3>
+          <p>IT-högskolan</p>
+          <p>Järfälla gymnasium</p>
+        </div>
+
+        <div class="program">
+          <h3>Program</h3>
+          <p>Frontend Developer</p>
+          <p>Arts program</p>
+        </div>
+
+        <p>
+          A patient, adaptable, and creative frontend development student with experience in
+          building responsive web applications. Proficient in HTML, CSS, JavaScript, and modern
+          frameworks. Passionate about delivering user-friendly solutions and high-quality user
+          experiences. Enjoys teamwork and collaboration and is always eager to learn and grow.
+        </p>
       </div>
-
-      <div class="program">
-        <h3>Program</h3>
-        <p>Frontend Developer</p>
-        <p>Arts program</p>
-      </div>
-
-      <p>
-        A patient, adaptable, and creative frontend development student with experience in building
-        responsive web applications. Proficient in HTML, CSS, JavaScript, and modern frameworks.
-        Passionate about delivering user-friendly solutions and high-quality user experiences.
-        Enjoys teamwork and collaboration and is always eager to learn and grow.
-      </p>
     </div>
 
     <div>
@@ -106,11 +108,16 @@ p {
   font-family: 'Outfit', sans-serif;
 }
 
-.picture {
+/* All pictures */
+.profile_img {
   display: block;
   margin-left: auto;
   margin-right: 150px;
   margin-top: -485px;
   max-width: 500px;
+}
+
+.about_me_img {
+  max-width: 200px;
 }
 </style>
