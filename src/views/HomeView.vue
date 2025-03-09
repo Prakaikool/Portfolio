@@ -24,26 +24,30 @@
       <img src="/images/about_me_img.png" alt="My image" class="about_me_img" />
 
       <div class="education-container">
-        <div class="education-first">
-          <img src="/icons/education_icon.png" alt="education_icon" class="ed_icon" />
-          <h3>Education</h3>
-          <p>IT-högskolan</p>
-          <p>Järfälla gymnasium</p>
+        <div class="education-box">
+          <div class="education-first">
+            <img src="/icons/education_icon.png" alt="education_icon" class="ed_icon" />
+            <h3>2024-2026</h3>
+            <p>Frontend Developer</p>
+            <p>IT-högskolan</p>
+          </div>
+
+          <div class="education-second">
+            <img src="/icons/education_icon.png" alt="education_icon" class="ed_icon" />
+            <h3>2018-2021</h3>
+            <p>Arts program</p>
+            <p>Järfälla gymnasium</p>
+          </div>
         </div>
 
-        <div class="education-second">
-          <img src="/icons/education_icon.png" alt="education_icon" class="ed_icon" />
-          <h3>Program</h3>
-          <p>Frontend Developer</p>
-          <p>Arts program</p>
+        <div class="education-p">
+          <p>
+            A patient, adaptable, and creative frontend development student with experience in
+            building responsive web applications. Proficient in HTML, CSS, JavaScript, and modern
+            frameworks. Passionate about delivering user-friendly solutions and high-quality user
+            experiences. Enjoys teamwork and collaboration and is always eager to learn and grow.
+          </p>
         </div>
-
-        <p>
-          A patient, adaptable, and creative frontend development student with experience in
-          building responsive web applications. Proficient in HTML, CSS, JavaScript, and modern
-          frameworks. Passionate about delivering user-friendly solutions and high-quality user
-          experiences. Enjoys teamwork and collaboration and is always eager to learn and grow.
-        </p>
       </div>
     </div>
 
@@ -91,6 +95,31 @@
   margin-top: 100px;
 }
 
+.education-first {
+  max-width: 300px;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 37px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-second {
+  max-width: 300px;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 37px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -176px;
+  margin-left: 345px;
+}
+
+.education-box {
+  margin-top: -378px;
+  margin-left: 480px;
+}
+
 /* fonts */
 .home-first h2 {
   margin-left: 175px;
@@ -98,11 +127,11 @@
 
 .home-second h2 {
   margin-top: -15px;
-  margin-left: 195px;
+  margin-left: 215px;
 }
 
 .home-second p {
-  margin-left: 180px;
+  margin-left: 200px;
 }
 
 h1 {
@@ -122,6 +151,29 @@ p {
   font-family: 'Outfit', sans-serif;
 }
 
+.education-container h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.education-p {
+  padding-right: 170px;
+  margin-left: 280px;
+  margin-top: 50px;
+}
+
+.education-first p {
+  margin-top: 0;
+  margin-bottom: 4px;
+  margin-left: auto;
+}
+
+.education-second p {
+  margin-top: 0;
+  margin-bottom: 4px;
+  margin-left: auto;
+}
+
 /* Button */
 .resume-button {
   margin-top: 25px;
@@ -130,10 +182,11 @@ p {
   padding: 8px 40px;
   font-size: 18px;
   background-color: #d8d8d8;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Outfit', sans-serif;
 }
 
-/* All pictures */
+/* All pictures and icons */
 .profile_img {
   display: block;
   margin-left: auto;
@@ -143,7 +196,13 @@ p {
 }
 
 .about_me_img {
-  max-width: 350px;
+  max-width: 400px;
   padding-left: 150px;
+}
+
+.ed_icon {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
 }
 </style>
