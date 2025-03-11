@@ -51,24 +51,48 @@
       </div>
     </div>
 
-    <div>
+    <div class="project-container">
       <h3>Latest projects</h3>
-      <img src="" alt="" />
-      <h3>Projects name</h3>
 
-      <img src="" alt="" />
-      <h3>Projects name</h3>
-
+      <div class="project-box">
+        <div class="project-first">
+          <img src="" alt="" />
+          <h3>Projects name</h3>
+        </div>
+        <div class="project-second">
+          <img src="" alt="" />
+          <h3>Projects name</h3>
+        </div>
+      </div>
       <h3>More</h3>
     </div>
 
     <div>
       <h3>Frontend development</h3>
       <p>Skills and tools</p>
-      <ul>
+      <ul class="skills-1">
         <li>HTML</li>
         <li>CSS</li>
         <li>Java Script</li>
+        <li></li>
+      </ul>
+      <ul class="skills-2">
+        <li>React</li>
+        <li>UX&UI</li>
+        <li></li>
+        <li>Typescript</li>
+      </ul>
+      <ul class="skills-3">
+        <li>React</li>
+        <li>SQL</li>
+        <li></li>
+        <li>Full-stack</li>
+      </ul>
+      <ul class="skills-4">
+        <li>Agil</li>
+        <li>Vue</li>
+        <li></li>
+        <li>Graphic framework</li>
       </ul>
     </div>
 
@@ -118,6 +142,19 @@
 .education-box {
   margin-top: -378px;
   margin-left: 480px;
+}
+
+.project-container {
+  margin-top: 100px;
+}
+
+.project-box {
+  max-width: 200px;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 37px;
+  margin-left: 170px;
+  text-align: center;
 }
 
 /* fonts */
